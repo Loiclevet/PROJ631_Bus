@@ -1,14 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 17 14:30:03 2022
 
-@author: levetl
-"""
 
 class node():
     
     def __init__(self, name, avant=[], apres=[], ligne=[]):
         self.name = name
+        self.avant = avant
+        self.apres = apres
+        self.ligne = ligne
         
     ## on réalise les setteur
     
